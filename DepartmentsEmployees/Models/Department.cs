@@ -1,10 +1,9 @@
 ﻿using System;
 namespace DepartmentsEmployees.Models
 {
-    public class Deparment
+    public class Department
     {
-        public Deparment()
-        {
-        }
+        public int Id { get; set; }
+        public string DeptName { get; set; }
     }
 }
